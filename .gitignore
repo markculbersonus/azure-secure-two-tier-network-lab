@@ -1,0 +1,9 @@
+# Credentials and local SSH files
+*.pem
+*.key
+*.pfx
+.env
+.env.*
+*.tfstate
+*.tfstate.*
+.DS_Store
