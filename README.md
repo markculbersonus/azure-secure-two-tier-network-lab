@@ -1,4 +1,4 @@
-# Azure Secure Two-Tier Network Architecture | Lab 02
+# Azure Secure Two-Tier Network Architecture
 
 **Microsoft Azure · Virtual Networking · Linux · Network Security Groups · SSH · IaaS**
 
