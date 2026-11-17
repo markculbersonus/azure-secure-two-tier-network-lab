@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Azure Lab 02 two tier web and database virtual machine architecture">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Azure Project two tier web and database virtual machine architecture">
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#edf3fc"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="none" stroke="#2563eb" stroke-width="1.8"/></marker><filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity=".10"/></filter></defs>
 <rect width="1400" height="850" fill="url(#bg)"/>
-<text x="70" y="65" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#102747">Azure Lab 02 | Secure Two-Tier VM Architecture</text>
+<text x="70" y="65" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#102747">Azure Project | Secure Two-Tier VM Architecture</text>
 <text x="70" y="98" font-family="Arial,sans-serif" font-size="17" fill="#55708c">Web VM + Database VM • VNet segmentation • Network Security Groups</text>
 <rect x="55" y="130" width="1290" height="610" rx="18" fill="#fff" stroke="#2b78c5" stroke-width="3"/>
 <text x="82" y="165" font-family="Arial" font-size="20" font-weight="700" fill="#185b9b">☁ Azure Subscription</text>
 <rect x="85" y="187" width="1230" height="523" rx="15" fill="#fafdff" stroke="#4b9bd4" stroke-width="2.5" stroke-dasharray="11 8"/>
-<text x="113" y="221" font-family="Arial" font-size="19" font-weight="700" fill="#226caa">Resource Group • Azure Lab 02</text>
+<text x="113" y="221" font-family="Arial" font-size="19" font-weight="700" fill="#226caa">Resource Group • Azure Project</text>
 <rect x="117" y="244" width="1166" height="433" rx="13" fill="#f3f8ff" stroke="#88b8db" stroke-width="2.5" stroke-dasharray="4 6"/>
 <text x="145" y="278" font-family="Arial" font-size="19" font-weight="700" fill="#24618c">Virtual Network (VNet)</text>
 <rect x="153" y="310" width="480" height="310" rx="14" fill="#e8f1ff" stroke="#77a7ec" stroke-width="2"/>
