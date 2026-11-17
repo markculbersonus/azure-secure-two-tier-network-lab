@@ -12,24 +12,9 @@ Built an Azure infrastructure-as-a-service (IaaS) lab with separate web and data
 
 ## Architecture
 
-```mermaid
-flowchart TB
-  Mac["Administrator's Mac
-SSH private key stored locally"] -->|"SSH 22 · restricted source IP"| Public["Web VM public IP"]
-  subgraph Azure["Azure · East US · rg-lab02-mark"]
-    subgraph VNet["vnet-lab02 · 10.0.0.0/16"]
-      subgraph Web["snet-web · 10.0.1.0/24"]
-        Public --> VMWeb["vm-web · Ubuntu 24.04
-10.0.1.4"]
-      end
-      subgraph DB["snet-db · 10.0.2.0/24"]
-        VMDB["vm-db-01 · Ubuntu 24.04
-10.0.2.4 · no public IP"]
-      end
-      VMWeb -->|"ICMP ping verified; TCP/22 tested"| VMDB
-    end
-  end
-```
+![Azure Lab 02 secure two-tier architecture](architecture.svg)
+
+*Architecture diagram: separate web and database-tier Ubuntu VMs, subnet-associated NSGs, and tested private connectivity. This lab did not deploy a web application or database engine.*
 
 ## Infrastructure inventory
 

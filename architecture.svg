@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="Azure Lab 02 two tier web and database virtual machine architecture">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#edf3fc"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="none" stroke="#2563eb" stroke-width="1.8"/></marker><filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity=".10"/></filter></defs>
+<rect width="1400" height="850" fill="url(#bg)"/>
+<text x="70" y="65" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#102747">Azure Lab 02 | Secure Two-Tier VM Architecture</text>
+<text x="70" y="98" font-family="Arial,sans-serif" font-size="17" fill="#55708c">Web VM + Database VM • VNet segmentation • Network Security Groups</text>
+<rect x="55" y="130" width="1290" height="610" rx="18" fill="#fff" stroke="#2b78c5" stroke-width="3"/>
+<text x="82" y="165" font-family="Arial" font-size="20" font-weight="700" fill="#185b9b">☁ Azure Subscription</text>
+<rect x="85" y="187" width="1230" height="523" rx="15" fill="#fafdff" stroke="#4b9bd4" stroke-width="2.5" stroke-dasharray="11 8"/>
+<text x="113" y="221" font-family="Arial" font-size="19" font-weight="700" fill="#226caa">Resource Group • Azure Lab 02</text>
+<rect x="117" y="244" width="1166" height="433" rx="13" fill="#f3f8ff" stroke="#88b8db" stroke-width="2.5" stroke-dasharray="4 6"/>
+<text x="145" y="278" font-family="Arial" font-size="19" font-weight="700" fill="#24618c">Virtual Network (VNet)</text>
+<rect x="153" y="310" width="480" height="310" rx="14" fill="#e8f1ff" stroke="#77a7ec" stroke-width="2"/>
+<rect x="767" y="310" width="480" height="310" rx="14" fill="#f0eafe" stroke="#a18ad9" stroke-width="2"/>
+<text x="179" y="348" font-family="Arial" font-size="22" font-weight="700" fill="#164c92">Subnet A — Web</text>
+<text x="793" y="348" font-family="Arial" font-size="22" font-weight="700" fill="#6843a2">Subnet B — DB</text>
+<rect x="245" y="380" width="300" height="120" rx="13" fill="white" stroke="#5b95dd" stroke-width="2" filter="url(#shadow)"/>
+<rect x="859" y="380" width="300" height="120" rx="13" fill="white" stroke="#9a7ac9" stroke-width="2" filter="url(#shadow)"/>
+<rect x="268" y="405" width="65" height="56" rx="6" fill="#1379cf"/><rect x="279" y="416" width="43" height="31" rx="3" fill="#b9e2ff"/><path d="M285 453 H316" stroke="white" stroke-width="4"/>
+<rect x="882" y="405" width="65" height="56" rx="6" fill="#7955ba"/><ellipse cx="914" cy="420" rx="20" ry="8" fill="#d8c8ff"/><path d="M894 420 V448 Q914 461 934 448 V420" fill="#b8a2ee"/><ellipse cx="914" cy="448" rx="20" ry="8" fill="#b8a2ee"/>
+<text x="351" y="427" font-family="Arial" font-size="22" font-weight="700" fill="#193c66">VM Web</text><text x="351" y="455" font-family="Arial" font-size="15" fill="#57708b">Ubuntu • Web VM</text>
+<text x="965" y="427" font-family="Arial" font-size="22" font-weight="700" fill="#473271">VM DB</text><text x="965" y="455" font-family="Arial" font-size="15" fill="#786593">Ubuntu • DB-tier VM</text>
+<rect x="191" y="524" width="406" height="65" rx="9" fill="#d7e7ff"/><text x="210" y="550" font-family="Arial" font-size="17" font-weight="700" fill="#225b9a">Web NSG</text><text x="210" y="575" font-family="Arial" font-size="15" fill="#345d88">HTTP 80, HTTPS 443; SSH 22 restricted</text>
+<rect x="805" y="524" width="406" height="65" rx="9" fill="#e3d8f8"/><text x="824" y="550" font-family="Arial" font-size="17" font-weight="700" fill="#634597">DB NSG</text><text x="824" y="575" font-family="Arial" font-size="15" fill="#69588a">SSH 22 from Web subnet; DB has no public IP</text>
+<path d="M545 439 H852" stroke="#2563eb" stroke-width="3" stroke-dasharray="10 7" marker-end="url(#arrow)"/>
+<rect x="636" y="388" width="132" height="40" rx="8" fill="white" stroke="#cbdcf2"/><text x="702" y="405" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#285b91">Private VNet</text><text x="702" y="420" text-anchor="middle" font-family="Arial" font-size="12" fill="#57708b">communication</text>
+<text x="72" y="786" font-family="Arial" font-size="17" font-weight="700" fill="#1e426b">Security design:</text><text x="213" y="786" font-family="Arial" font-size="16" fill="#42617d">Separate web and database tiers; NSGs control permitted inbound traffic.</text>
+<text x="72" y="815" font-family="Arial" font-size="14" fill="#667e96">Both VMs deployed; web-to-DB private ICMP connectivity verified. No web app or DBMS deployed.</text>
+</svg>
