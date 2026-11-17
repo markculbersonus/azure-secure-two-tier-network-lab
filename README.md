@@ -108,4 +108,4 @@ The two `Standard_D4s_v4` VMs incur compute costs while running. Deallocate when
 
 ---
 
-*Hands-on learning project completed as part of a cloud engineering bootcamp. This repository documents observed results and identifies security limitations rather than claiming production readiness.*
+
