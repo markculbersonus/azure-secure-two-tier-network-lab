@@ -8,8 +8,6 @@ Built an Azure infrastructure-as-a-service (IaaS) lab with separate web and data
 
 > **Scope:** This is an infrastructure/network segmentation lab, not a deployed website or database application. The database VM represents a future database tier; no DBMS installation or database transactions are claimed.
 
-**Lab reference:** *Lab 02: Building a Secure 2-Tier Web Application*, Jhante Charles. Completed November 2026.
-
 ## Architecture
 
 ![Azure Lab 02 secure two-tier architecture](architecture.svg)
