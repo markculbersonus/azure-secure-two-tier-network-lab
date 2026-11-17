@@ -10,7 +10,7 @@ Built an Azure infrastructure-as-a-service (IaaS) lab with separate web and data
 
 ## Architecture
 
-![Azure Lab 02 secure two-tier architecture](architecture.svg)
+![Azure# Azure Secure Two-Tier Network Architecture secure two-tier architecture](architecture.svg)
 
 *Architecture diagram: separate web and database-tier Ubuntu VMs, subnet-associated NSGs, and tested private connectivity. This lab did not deploy a web application or database engine.*
 
